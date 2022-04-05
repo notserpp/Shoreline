@@ -14,6 +14,16 @@ function HomePage() {
           <p className="Goth Header2">DARING CIDERS</p>
         </div>
       </header>
+      <div className="Section2">
+        <header>
+          <h1>Shoreline</h1>
+        </header>
+      </div>
+      <div className="Section3">
+        <header>
+          <h1>Shoreline</h1>
+        </header>
+      </div>
     </div>
   );
 }
