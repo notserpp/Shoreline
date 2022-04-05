@@ -1,0 +1,5 @@
+/* File: font.css */
+@font-face {
+    font-family: 'Becker';
+    src: local('Becker'), url(./fonts/Becker.ttf) format('truetype');
+  }
