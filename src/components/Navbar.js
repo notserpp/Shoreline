@@ -1,8 +1,7 @@
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.css'
-import { Navbar, Nav, NavDropdown, Container, Offcanvas, Form, FormControl, Button } from 'react-bootstrap'
-import shoreline from '../Shoreline.png'
-import React, { useState, useEffect } from 'react'
+import { Navbar, Nav, Container, Offcanvas } from 'react-bootstrap'
+import React, { useState } from 'react'
 
 
 function Navigation() {
@@ -21,15 +20,6 @@ function Navigation() {
 
     return (
         <div>
-            {/* <Navbar scrolling expand="md" fixed="top" bg="myGreen" variant="dark" className={navbar ? 'justify-content-center transition slighttransparent' : 'justify-content-center transistion transparent'} >
-                <Navbar.Brand>
-                    <h2 className="Becker navBarText">SHORELINE</h2>
-                </Navbar.Brand>
-                <Navbar.Toggle />
-            </ Navbar> */}
-
-
-
             <Navbar expand={false} scrolling fixed="top" bg="myGreen" variant="dark" className={navbar ? 'justify-content-center transition slighttransparent' : 'justify-content-center transistion transparent'} >
                 <Container fluid>
                     <Navbar.Brand>
