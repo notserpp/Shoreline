@@ -9,9 +9,9 @@ function HomePage() {
     <div className="App">
       <Navigation />
       <header className="Section1">
-        <div className="Section1Text">
+        <div className="Section1Text slide-up">
           <h1 className="Becker Header1">Shoreline</h1>
-          <p className="Goth Header2">DARING CIDERS</p>
+          <p className="Goth Header2 slide-up">DARING CIDERS</p>
         </div>
       </header>
       <div className="Section2">
