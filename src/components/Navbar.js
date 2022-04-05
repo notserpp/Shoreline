@@ -1,5 +1,4 @@
 import '../App.css';
-import 'bootstrap/dist/css/bootstrap.css'
 import { Navbar, Nav, Container, Offcanvas } from 'react-bootstrap'
 import React, { useState } from 'react'
 
