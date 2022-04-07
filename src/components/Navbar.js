@@ -32,7 +32,7 @@ function Navigation() {
                         placement="end"
                     >
                         <Offcanvas.Body className="green">
-                            <Nav className="justify-content-end flex-grow-1 pe-3 text-center">
+                            <Nav className="flex-grow-1 pe-3 text-center transistion">
                                 <h2 className="Becker sidebar grow">Merchandise</h2>
                                 <h2 className="Becker sidebar grow">About us</h2>
                                 <h2 className="Becker sidebar grow">Store Locator</h2>

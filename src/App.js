@@ -1,5 +1,8 @@
 import * as React from 'react'
 import HomePage from './pages'
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
+import Animation from './pages/Animation';
 
 
 
