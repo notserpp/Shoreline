@@ -1,4 +1,4 @@
-h1{
+h1 {
   margin: 0;
 }
 
@@ -15,16 +15,19 @@ h1{
   color: white;
 }
 
-@media screen and (max-width: 1024px) { /* Specific to this particular image */
+@media screen and (max-width: 1024px) {
+
+  /* Specific to this particular image */
   .Section1 {
     left: 50%;
-    margin-left: -712px;   /* 50% */
+    margin-left: -712px;
+    /* 50% */
   }
 }
 
-.Section1Text{
-margin-left: 15%;
-margin-top: 10%;
+.Section1Text {
+  margin-left: 15%;
+  margin-top: 10%;
 }
 
 .Header1 {
@@ -58,7 +61,7 @@ margin-top: 10%;
   text-align: center;
 }
 
-.Section2Header{
+.Section2Header {
   text-align: center;
 }
 
@@ -68,7 +71,7 @@ margin-top: 10%;
   margin-right: 10%;
 }
 
-.Section2Image{
+.Section2Image {
   margin-top: 10%;
   width: 40%;
   opacity: 60%;
@@ -103,30 +106,35 @@ margin-top: 10%;
 
 .navBarText {
   letter-spacing: 3px;
-  color:beige;
+  color: beige;
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 
 .transparent {
   background: rgba(0, 0, 0, 0);
 }
-.slighttransparent{
+
+.slighttransparent {
   background: rgba(122, 146, 116, 0.753);
 }
 
 .transition {
   transition: all .25s ease-in-out;
   -moz-transition: all .25s ease-in-out;
-  -webkit-transition: all .25s  ease-in-out;
+  -webkit-transition: all .25s ease-in-out;
 }
 
 .sidebar {
   margin-bottom: 10%;
 }
 
-.grow { transition: all .2s ease-in-out; }
+.grow {
+  transition: all .2s ease-in-out;
+}
 
-.grow:hover { transform: scale(1.1); }
+.grow:hover {
+  transform: scale(1.1);
+}
 
 .green {
   background-color: #7a9274;
@@ -135,9 +143,9 @@ margin-top: 10%;
 
 
 @media (prefers-reduced-motion: reduce) {
- .offcanvas {
+  .offcanvas {
     transition: transform 0.3s ease-in-out !important;
-}
+  }
 }
 
 .opacity {
