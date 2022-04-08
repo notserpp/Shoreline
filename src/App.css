@@ -27,11 +27,6 @@ margin-left: 15%;
 margin-top: 10%;
 }
 
-.Section2Text{
-  margin-left: 10%;
-  margin-top: 0%;
-  }
-
 .Header1 {
   font-size: 100px;
 }
@@ -39,10 +34,6 @@ margin-top: 10%;
 .Header2 {
   margin-top: 0;
   font-size: 30px;
-}
-
-.Section2Header1 {
-  font-size: 80px;
 }
 
 .Becker {
@@ -55,12 +46,33 @@ margin-top: 10%;
 
 .Section2 {
   background-color: #330d0e;
-  min-height: 80vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  min-height: 60vh;
   color: white;
-  font-size: calc(10px + 2vmin);
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.Section2Header1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.Section2Header{
+  text-align: center;
+}
+
+.Section2Text {
+  margin-top: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.Section2Image{
+  margin-top: 10%;
+  width: 40%;
+  opacity: 60%;
+  margin-left: 10%;
 }
 
 .Section3 {
@@ -121,15 +133,6 @@ margin-top: 10%;
   color: white
 }
 
-.slide-up {
-  height:40vh;
-  overflow: hidden;
-}
-.slide-up p {
-  animation: 1s slide-up;
-  margin-top:0%;
-
-} 
 
 @media (prefers-reduced-motion: reduce) {
  .offcanvas {
@@ -137,10 +140,10 @@ margin-top: 10%;
 }
 }
 
-.jumpingDrink{
-  width: 60%;
-}
-
 .opacity {
   opacity: 0;
+}
+
+.jumpingDrink {
+  width: 50%;
 }

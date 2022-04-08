@@ -1,7 +1,7 @@
 import '../App.css';
 import * as React from 'react'
 import Navigation from '../components/Navbar'
-import jumpingDrink from '../jumpingdrink.gif'
+
 import { Row, Col } from 'react-bootstrap'
 import { Zoom, Slide, Fade } from 'react-reveal';
 import FadeSpy from '../components/FadeSpy';
@@ -23,23 +23,7 @@ function HomePage() {
         </div>
       </header>
 
-
-      <div className="Section2" id="section-2">
-        <header>
-          <Row>
-            <Col>
-              <div className="Section2Text">
-                <FadeSpy />
-              </div>
-            </Col>
-            <Col md="auto">
-              <Fade>
-                <img src={jumpingDrink} alt="Jumping Drink" className="jumpingDrink"></img>
-              </Fade>
-            </Col>
-          </Row>
-        </header>
-      </div>
+      <FadeSpy />
 
 
       <div className="Section3">
