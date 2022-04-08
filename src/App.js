@@ -5,7 +5,9 @@ import "animate.css/animate.min.css";
 function App() {
   // 2. Wrap ChakraProvider at the root of your app
   return (
-    <HomePage />
+    <div className="app">
+      <HomePage />
+    </div>
   );
 }
 

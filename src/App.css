@@ -1,68 +1,82 @@
 
+html{
+  overflow-x: hidden !important;
+}
+
+
 .Section1 {
   /*background-color: #7a9274;*/
-  background-image: url(https://cdn.shopify.com/s/files/1/0013/8038/4886/files/calidad-desktop-heroimage_5fae980d-e785-40dd-bc9b-5627ba02c003_1944x.jpg?v=1559304632);
+  background-image: url('./Beach.png');
   background-repeat: no-repeat;
   background-position: center 20%;
-  background-size: cover;
-  min-height: 100vh;
+  background-size:cover;
+  min-height: 101vh;
   display: flex;
   flex-direction: column;
   color: white;
+  text-align: center;
 }
 
-@media screen and (max-width: 1024px) {
 
-  /* Specific to this particular image */
-  .Section1 {
-    left: 50%;
-    margin-left: -712px;
-    /* 50% */
+
+@media screen and (max-width: 1400px) {
+  .Header1 {
+    margin-top: 20%;
+    font-size: 20px;
   }
 }
 
+.logo{
+  width: 10vh;
+}
+
 .Section1Text {
-  margin-left: 15%;
   margin-top: 10%;
 }
 
 .Header1 {
-  font-size: 100px !important;
+  font-size: 10vh !important;
+  text-shadow: 2px 2px black;
 }
 
 .Header2 {
   margin-top: 0 !important;
-  font-size: 30px !important;
+  font-size: 4vh !important;
+  text-shadow: 2px 2px black;
 }
 
 .Becker {
-  font-family: Becker;
+  font-family: Becker !important;
 }
 
 .Goth {
-  font-family: HWYGOTH;
+  font-family: HWYGOTH !important;
 }
 
 .Section2 {
-  background-color: #330d0e;
+  background-color: #C2B280;
   min-height: 60vh;
   color: white;
   display: flex;
 }
 
 .Section2Header1 {
-  font-size: 60px !important;
+  font-size: 5vh !important;
   text-align: center;
 }
 
 .Section2Header {
   text-align: center;
+  font-size: 2.5vh !important;
 }
 
 .Section2Text {
   margin-top: 20%;
   margin-left: 10%;
   margin-right: 10%;
+}
+
+.section1Button {
 }
 
 .Section2Image {
@@ -72,8 +86,33 @@
   margin-left: 10%;
 }
 
+.aboutUsButton {
+  text-align: center;
+}
+
+.btn {
+  font-weight: 500 !important;
+}
+
+.btn-lg {
+  font-size: 1.5rem !important;
+  border-radius: 0.2rem !important;
+}
+
+.btn-warning {
+  color: #330d0e !important;
+}
+
+button {
+  font-family: 'HWYGOTH' !important;
+  letter-spacing: 1px;
+}
+
+:root {
+  --bs-body-font-family: none  !important;
+}
+
 .Section3 {
-  background-color: #dadacf;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -81,6 +120,14 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.spaced {
+  margin-top: 3vh;
+}
+
+.nav-text {
+  font-size: 4vh;
 }
 
 /* File: font.css */
@@ -94,9 +141,6 @@
   src: local('HWYGOTH'), url(./fonts/HWYGOTH.TTF) format('truetype');
 }
 
-.bg-myGreen {
-  background-color: #7a9274;
-}
 
 .navBarText {
   letter-spacing: 3px;
@@ -109,30 +153,35 @@
 }
 
 .slighttransparent {
-  background: rgba(122, 146, 116, 0.753);
+  background: rgba(240, 234, 214, 0.753);
 }
 
-.transition {
-  transition: all .25s ease-in-out;
-  -moz-transition: all .25s ease-in-out;
-  -webkit-transition: all .25s ease-in-out;
-}
+
 
 .sidebar {
   margin-bottom: 10%;
+  text-shadow: 2px 2px black;
+
 }
 
 .grow {
-  transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out !important;
 }
 
 .grow:hover {
-  transform: scale(1.1);
+  transform: scale(1.1) !important;
 }
 
+
 .green {
-  background-color: #7a9274;
+  background-color: #F0EAD6;
   color: white
+}
+
+
+
+.offcanvas-body{
+  background: rgba(240, 234, 214, 0.753);
 }
 
 
@@ -142,10 +191,21 @@
   }
 }
 
+.white {
+  color:white;
+  text-shadow: black 1px 1px;
+}
+
 .opacity {
   opacity: 0;
 }
 
 .jumpingDrink {
   width: 50%;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0) !important;
+  border-color: rgba(0, 0, 0, 0.0) !important;
+  margin-right: 2%;
 }

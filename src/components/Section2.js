@@ -2,13 +2,12 @@ import '../App.css';
 import 'bootstrap/dist/css/bootstrap.css'
 import React, { useState, useRef, useEffect } from 'react'
 import Fade from 'react-reveal/Fade';
-import { Row, Col } from 'react-bootstrap'
+import { Row, Col, Button } from 'react-bootstrap'
 
 
 function Section2() {
     const myRef = useRef();
     const [myElementIsVisible, setMyElementIsVisible] = useState();
-    console.log(myElementIsVisible)
     useEffect(() => {
         const observer = new IntersectionObserver((entries) => {
             const entry = entries[0]
@@ -21,14 +20,17 @@ function Section2() {
     return (
         <div>
             <div ref={myRef}>
-                <div className="Section2" id="section-2">
+                <div className="Section2">
                     {myElementIsVisible ?
-                        <Fade duration={5000}>
+                        <Fade duration={1000}>
                             <Row>
                                 <Col>
                                     <div className="Section2Text">
                                         <h1 className="Becker Section2Header1">CALIDAD BEER "CLASSIC"</h1>
-                                        <p className="Goth Header2 Section2Header">Born out of California, Calidad is a crisp Mexican-style lager handcrafted with more high-quality ingredients (and more SoCal attitude!) than any leading Mexican beer on the market.</p>
+                                        <p className="Goth Section2Header">Born out of California, Calidad is a crisp Mexican-style lager handcrafted with more high-quality ingredients (and more SoCal attitude!) than any leading Mexican beer on the market.</p>
+                                        <div className="aboutUsButton grow">
+                                            <Button variant="warning" class="aboutUsButton Becker" size="lg">&#9830; LEARN MORE &#9830;</Button>
+                                        </div>
                                     </div>
                                 </Col>
                                 <Col>
@@ -43,7 +45,7 @@ function Section2() {
                             <Col>
                                 <div className="Section2Text opacity">
                                     <h1 className="Becker Section2Header1">CALIDAD BEER "CLASSIC"</h1>
-                                    <p className="Goth Header2 Section2Header">Born out of California, Calidad is a crisp Mexican-style lager handcrafted with more high-quality ingredients (and more SoCal attitude!) than any leading Mexican beer on the market.</p>
+                                    <p className="Goth Section2Header">Born out of California, Calidad is a crisp Mexican-style lager handcrafted with more high-quality ingredients (and more SoCal attitude!) than any leading Mexican beer on the market.</p>
                                 </div>
                             </Col>
                             <Col>
