@@ -6,7 +6,7 @@ html{
 
 .Section1 {
   /*background-color: #7a9274;*/
-  background-image: url('./Beach.png');
+  background-image: url('../public/Beach.png');
   background-repeat: no-repeat;
   background-position: center 20%;
   background-size:cover;
