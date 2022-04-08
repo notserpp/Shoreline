@@ -2,6 +2,7 @@ import '../App.css';
 import 'bootstrap/dist/css/bootstrap.css'
 import { Navbar, Nav, Container, Offcanvas } from 'react-bootstrap'
 import React, { useState } from 'react'
+import { Zoom, Slide, Fade } from 'react-reveal';
 
 
 function Navigation() {
@@ -32,10 +33,15 @@ function Navigation() {
                         placement="end"
                     >
                         <Offcanvas.Body className="green">
+
                             <Nav className="flex-grow-1 pe-3 text-center transistion">
-                                <h2 className="Becker sidebar grow">Merchandise</h2>
-                                <h2 className="Becker sidebar grow">About us</h2>
-                                <h2 className="Becker sidebar grow">Store Locator</h2>
+                                <Slide right cascade>
+                                    <div>
+                                        <h2 className="Becker sidebar grow">Merchandise</h2>
+                                        <h2 className="Becker sidebar grow">About us</h2>
+                                        <h2 className="Becker sidebar grow">Store Locator</h2>
+                                    </div>
+                                </Slide>
                             </Nav>
                         </Offcanvas.Body>
                     </Navbar.Offcanvas>

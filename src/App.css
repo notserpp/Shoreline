@@ -140,3 +140,7 @@ margin-top: 10%;
 .jumpingDrink{
   width: 60%;
 }
+
+.opacity {
+  opacity: 0;
+}
