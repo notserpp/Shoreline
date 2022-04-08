@@ -1,11 +1,9 @@
 import '../App.css';
 import * as React from 'react'
 import Navigation from '../components/Navbar'
+import { Slide } from 'react-reveal';
+import Section2 from '../components/Section2';
 
-import { Row, Col } from 'react-bootstrap'
-import { Zoom, Slide, Fade } from 'react-reveal';
-import FadeSpy from '../components/FadeSpy';
-import BeerCan from '../components/Beercan';
 
 
 
@@ -23,7 +21,7 @@ function HomePage() {
         </div>
       </header>
 
-      <FadeSpy />
+      <Section2 />
 
 
       <div className="Section3">
