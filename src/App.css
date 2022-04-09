@@ -1,6 +1,7 @@
 
 html{
-  max-width: 100vw;
+  max-width: 110vw;
+  overflow-x: hidden;
 }
 
 
@@ -19,12 +20,6 @@ html{
 
 
 
-@media screen and (max-width: 1400px) {
-  .Header1 {
-    margin-top: 20%;
-    font-size: 20px;
-  }
-}
 
 .logo{
   width: 10vh;
