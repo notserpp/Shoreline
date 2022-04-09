@@ -33,7 +33,7 @@ function Section2() {
                                         </div>
                                     </div>
                                 </Col>
-                                <Col>
+                                <Col className="center Section2Image">
                                     <div className="Section2Image">
                                         <img src="https://media4.giphy.com/media/jRrCWZo0kuDSl3soNI/giphy.gif" alt="funny" />
                                     </div>
